@@ -1,0 +1,11 @@
+platform :ios, '8.0'
+
+# 私有库
+source 'http://git.jimubox.com/BBAE/iOS-toB-Specs.git'
+# 公有库
+source 'https://github.com/CocoaPods/Specs.git'
+target 'BTPushSDK' do
+
+end
+
+
