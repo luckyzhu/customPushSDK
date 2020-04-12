@@ -28,8 +28,8 @@ Pod::Spec.new do |spec|
   end
 
   spec.subspec 'MipushSDK' do |mipush|
-  mipush.source_files = "BTPushSDK/MiPushSDK/*"
-  #mipush.vendored_libraries = "BTPushSDK/MiPushSDK/libMiPushSDK.a"
+  mipush.source_files = "BTPushSDK/MiPushSDK/*.{h,m}"
+  mipush.vendored_libraries = "BTPushSDK/MiPushSDK/libMiPushSDK.a"
   mipush.dependency "BTPushSDK/Base"
   end
 end
