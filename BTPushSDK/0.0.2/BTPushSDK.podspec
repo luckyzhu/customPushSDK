@@ -21,7 +21,7 @@ Pod::Spec.new do |spec|
   #spec.source_files = "BTPushSDK/MiPushSDK/*.{h,m}"
 
 
-  #spec.default_subspecs = 'Core'
+  spec.default_subspecs = 'Core'
   # subspec配置
   spec.subspec 'Core' do |core|
   core.source_files = "BTPushSDK/Core/*.{h,m}"
