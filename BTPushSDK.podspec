@@ -2,7 +2,7 @@ Pod::Spec.new do |spec|
   spec.name         = "BTPushSDK"
 
   # 更改spec的时候，变更版本号
-  spec.version      = "0.0.1"
+  spec.version      = "0.0.2"
 
   spec.summary      = "This is BTPushSDK"
   spec.description  = <<-DESC
@@ -21,7 +21,7 @@ Pod::Spec.new do |spec|
   #spec.source_files = "BTPushSDK/MiPushSDK/*.{h,m}"
 
 
-  #spec.default_subspecs = 'Core'
+  spec.default_subspecs = 'Core'
   # subspec配置
   spec.subspec 'Core' do |core|
   core.source_files = "BTPushSDK/Core/*.{h,m}"

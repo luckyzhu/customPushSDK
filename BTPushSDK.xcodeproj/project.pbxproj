@@ -150,7 +150,7 @@
 		85A0ED9924404E8E000A8E76 /* BTPushSDK */ = {
 			isa = PBXGroup;
 			children = (
-				85A0EDC2244052AA000A8E76 /* Core */,
+				85A0EDC2244052AA000A8E76 /* Base */,
 				85A0EDC12440528B000A8E76 /* MiPushSDK */,
 				85A0ED9A24404E8E000A8E76 /* AppDelegate.h */,
 				85A0ED9B24404E8E000A8E76 /* AppDelegate.m */,
@@ -187,13 +187,13 @@
 			path = MiPushSDK;
 			sourceTree = "<group>";
 		};
-		85A0EDC2244052AA000A8E76 /* Core */ = {
+		85A0EDC2244052AA000A8E76 /* Base */ = {
 			isa = PBXGroup;
 			children = (
 				85A0EDC3244052BC000A8E76 /* BTPushSDK.h */,
 				85A0EDC4244052BC000A8E76 /* BTPushSDK.m */,
 			);
-			path = Core;
+			path = Base;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
