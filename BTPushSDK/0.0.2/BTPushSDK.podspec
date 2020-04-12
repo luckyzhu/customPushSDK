@@ -30,6 +30,8 @@ Pod::Spec.new do |spec|
   spec.subspec 'MipushSDK' do |mipush|
   mipush.source_files = "BTPushSDK/MiPushSDK/*.{h,m}"
   mipush.vendored_libraries = "BTPushSDK/MiPushSDK/libMiPushSDK.a"
+  mipush.frameworks = 'UserNotifications','SystemConfiguration','MobileCoreServices','CFNetwork','CoreTelephony'
+  mipush.libraries = 'resolv','xml2','z'
   mipush.dependency "BTPushSDK/Base"
   end
 end
