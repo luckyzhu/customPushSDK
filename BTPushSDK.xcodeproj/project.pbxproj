@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		4981B0238353DD17241104BD /* libPods-BTPushSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 55BCF0A2D700EC5A97BE6134 /* libPods-BTPushSDK.a */; };
+		8503C21B244410C600AA4CCF /* BTBaseTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 8503C21A244410C600AA4CCF /* BTBaseTool.m */; };
 		85A0ED9C24404E8E000A8E76 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A0ED9B24404E8E000A8E76 /* AppDelegate.m */; };
 		85A0ED9F24404E8E000A8E76 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A0ED9E24404E8E000A8E76 /* SceneDelegate.m */; };
 		85A0EDA224404E8E000A8E76 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A0EDA124404E8E000A8E76 /* ViewController.m */; };
@@ -42,6 +43,8 @@
 /* Begin PBXFileReference section */
 		00BAE29F0DDBD6F1AC32144C /* Pods-BTPushSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BTPushSDK.debug.xcconfig"; path = "Target Support Files/Pods-BTPushSDK/Pods-BTPushSDK.debug.xcconfig"; sourceTree = "<group>"; };
 		55BCF0A2D700EC5A97BE6134 /* libPods-BTPushSDK.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BTPushSDK.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8503C219244410C600AA4CCF /* BTBaseTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BTBaseTool.h; sourceTree = "<group>"; };
+		8503C21A244410C600AA4CCF /* BTBaseTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BTBaseTool.m; sourceTree = "<group>"; };
 		85A0ED9724404E8E000A8E76 /* BTPushSDK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BTPushSDK.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		85A0ED9A24404E8E000A8E76 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		85A0ED9B24404E8E000A8E76 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -192,6 +195,8 @@
 			children = (
 				85A0EDC3244052BC000A8E76 /* BTPushSDK.h */,
 				85A0EDC4244052BC000A8E76 /* BTPushSDK.m */,
+				8503C219244410C600AA4CCF /* BTBaseTool.h */,
+				8503C21A244410C600AA4CCF /* BTBaseTool.m */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -328,6 +333,7 @@
 				85A0EDCE2440539A000A8E76 /* BTDefaultMiPushImpl.m in Sources */,
 				85A0ED9F24404E8E000A8E76 /* SceneDelegate.m in Sources */,
 				85A0EDC5244052BC000A8E76 /* BTPushSDK.m in Sources */,
+				8503C21B244410C600AA4CCF /* BTBaseTool.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

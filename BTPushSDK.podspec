@@ -21,15 +21,17 @@ Pod::Spec.new do |spec|
   #spec.source_files = "BTPushSDK/MiPushSDK/*.{h,m}"
 
 
-  spec.default_subspecs = 'Core'
+  #spec.default_subspecs = 'Base'
   # subspec配置
-  spec.subspec 'Core' do |core|
-  core.source_files = "BTPushSDK/Core/*.{h,m}"
+  spec.subspec 'Base' do |base|
+  base.source_files = "BTPushSDK/Base/*.{h,m}"
   end
 
   spec.subspec 'MipushSDK' do |mipush|
-  mipush.source_files = "BTPushSDK/MiPushSDK/*"
-  #mipush.vendored_libraries = "BTPushSDK/MiPushSDK/libMiPushSDK.a"
-  mipush.dependency "BTPushSDK/Core"
+  mipush.source_files = "BTPushSDK/MiPushSDK/*.{h,m}"
+  mipush.vendored_libraries = "BTPushSDK/MiPushSDK/libMiPushSDK.a"
+  mipush.frameworks = 'UserNotifications','SystemConfiguration','MobileCoreServices','CFNetwork','CoreTelephony'
+  mipush.libraries = 'resolv','xml2','z'
+  mipush.dependency "BTPushSDK/Base"
   end
 end
