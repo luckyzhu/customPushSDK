@@ -13,6 +13,7 @@
     if (self = [super init]) {
 
         NSLog(@"11111");
+        NSLog(@"222");
     }
 
     return self;
