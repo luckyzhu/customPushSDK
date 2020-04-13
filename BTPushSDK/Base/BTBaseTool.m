@@ -12,19 +12,6 @@
 -(instancetype)init {
     if (self = [super init]) {
         NSLog(@"11111");
-        NSLog(@"11111");
-        NSLog(@"11111");
-        NSLog(@"11111");
-        NSLog(@"11111");
-        NSLog(@"11111");
-        NSLog(@"11111");
-        NSLog(@"11111");
-        NSLog(@"11111");
-        NSLog(@"11111");
-        NSLog(@"11111");
-        NSLog(@"11111");
-
-
 
     }
 
